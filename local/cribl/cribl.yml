@@ -1,0 +1,11 @@
+auth:
+  type: local
+  filter_type: email_whitelist
+git:
+  gitOps: none
+  authType: ssh
+  autoAction: none
+  timeout: 60000
+  strictHostKeyChecking: true
+  commitDeploySingleAction: false
+  remote: git@github.com:babushka23/stream-config.git
